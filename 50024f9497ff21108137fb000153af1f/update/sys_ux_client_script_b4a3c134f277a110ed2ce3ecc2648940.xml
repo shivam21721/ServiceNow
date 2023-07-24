@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Landing Page">f0a3c1346877a1108cd9e41343a5ae46</macroponent>
+        <name>Set my task sysId</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    imports
+}) {
+    api.setState("taskcard",event.payload.sysId);  
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-06-30 10:51:50</sys_created_on>
+        <sys_id>b4a3c134f277a110ed2ce3ecc2648940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set my task sysId</sys_name>
+        <sys_package display_value="Safety" source="x_1085240_safety">50024f9497ff21108137fb000153af1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">50024f9497ff21108137fb000153af1f</sys_scope>
+        <sys_update_name>sys_ux_client_script_b4a3c134f277a110ed2ce3ecc2648940</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-30 10:51:50</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Safety Issues Portal Config">f4a3c1349777a1108137fb000153af1c</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Indicate your decision</name>
+        <optional_parameters/>
+        <order>100</order>
+        <parent_macroponent display_value="Record Page(task)">f4a3c1340e77a1101ec5506a7a0a9e45</parent_macroponent>
+        <parent_macroponent_composition_element_id>tab_set_1</parent_macroponent_composition_element_id>
+        <route_type>rec_tasks</route_type>
+        <screen_type display_value="Indicate your decision">70a3c1341d77a1104e10febd77f31943</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-06-30 10:51:51</sys_created_on>
+        <sys_id>34a3c134db77a110a633653db370c643</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Indicate your decision</sys_name>
+        <sys_package display_value="Safety" source="x_1085240_safety">50024f9497ff21108137fb000153af1f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">50024f9497ff21108137fb000153af1f</sys_scope>
+        <sys_update_name>sys_ux_app_route_34a3c134db77a110a633653db370c643</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-30 10:51:51</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=34a3c134db77a110a633653db370c643"/>
+</record_update>
